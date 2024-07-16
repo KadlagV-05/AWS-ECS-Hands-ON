@@ -78,20 +78,11 @@ Again we specify that we want to run our task on EC2 instance. <br>
 
 11.We will keep all other things as default. And Click on create. <br>
 
-<img width="1792" alt="9" src="https://github.com/user-attachments/assets/5d17d003-ae06-47cf-9351-7be89aa488c1">
-
-
-
-
-
-
-
-
-## wait
+<img width="1792" alt="9" src="https://github.com/user-attachments/assets/3aef7493-299d-4935-bbbe-55b3a029fa2d">
 
 12.Now both our task and cluster has been created. Its time to create a service to deploy on our cluster and configure load balancer. <br>
 
-13.Now go back to the cluster , and click on it.
+13.Now go back to the cluster , and click on it. <br>
 
 <img width="1792" alt="10" src="https://github.com/user-attachments/assets/5a26ef7c-beac-4b8e-813d-b49c5472cda9">
 
