@@ -42,7 +42,7 @@ It plays a crucial role in ensuring that traffic is evenly distributed among the
 
 <img width="1792" alt="1" src="https://github.com/user-attachments/assets/a75ea8c1-f4f7-4ed0-a11d-70f7948b188e">
 
-3.Select or type all the selected/higlighed options . I have named cluster myCluster but you can name it anything. We are going to use EC2 launch type for our running our container instance. <br>
+3.Select or type all the selected/higlighed options . I have named cluster ECS-cluster but you can name it anything. We are going to use EC2 launch type for our running our container instance. <br>
 
 <img width="1792" alt="2" src="https://github.com/user-attachments/assets/97434fa6-0eb2-4e3f-88fb-a99bdb25a1dd">
 
