@@ -62,11 +62,21 @@ It plays a crucial role in ensuring that traffic is evenly distributed among the
 <img width="1792" alt="5" src="https://github.com/user-attachments/assets/375d1848-1224-4835-a552-5e6f79758f16">
 
 8.Click on create task definition , and select the following values. <br>
-we will name our task MY-ECS-TASK.Again we specify that we want to run our task on EC2 instance.
 
 <img width="1792" alt="6" src="https://github.com/user-attachments/assets/3a9efa68-e681-4642-b1e2-23bc10169ae9">
 
-9.We will select linux as the operating system ,and select awsvpc as the networking model. We will select 0.25 as the vCPU , and 0.25 GB RAM as in t2.micro instance we have 1 vCPU and 1GB ram.
+
+
+
+
+
+9.we will name our task MY-ECS-TASK. <br> 
+Again we specify that we want to run our task on EC2 instance.
+
+
+
+9.We will select linux as the operating system ,and select awsvpc as the networking model.<br>
+We will select 0.25 as the vCPU , and 0.25 GB RAM as in t2.micro instance we have 1 vCPU and 1GB ram.
 
 <img width="1792" alt="7" src="https://github.com/user-attachments/assets/ba58404c-643d-4ed7-9f03-262696c45c97">
 
