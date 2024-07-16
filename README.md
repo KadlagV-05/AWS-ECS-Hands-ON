@@ -42,7 +42,7 @@ It plays a crucial role in ensuring that traffic is evenly distributed among the
 
 <img width="1792" alt="1" src="https://github.com/user-attachments/assets/a75ea8c1-f4f7-4ed0-a11d-70f7948b188e">
 
-3.Select or type all the selected/higlighed options . I have named cluster ECS-cluster but you can name it anything. We are going to use EC2 launch type for our running our container instance. <br>
+3.Click on Create. I have named cluster ECS-cluster but you can name it anything. We are going to use EC2 launch type for running our container instance. <br>
 
 <img width="1792" alt="2" src="https://github.com/user-attachments/assets/97434fa6-0eb2-4e3f-88fb-a99bdb25a1dd">
 
@@ -61,7 +61,7 @@ It plays a crucial role in ensuring that traffic is evenly distributed among the
 
 <img width="1792" alt="5" src="https://github.com/user-attachments/assets/375d1848-1224-4835-a552-5e6f79758f16">
 
-8.Click on create task definition , and select the following values.<br>
+8.Select the following values.<br>
 we will name our task MY-task. <br> 
 Again we specify that we want to run our task on EC2 instance. <br>
 
@@ -72,7 +72,7 @@ Again we specify that we want to run our task on EC2 instance. <br>
 
 <img width="1792" alt="7" src="https://github.com/user-attachments/assets/ba58404c-643d-4ed7-9f03-262696c45c97">
 
-10.Now we have to select image for our container , I have selected inderharrysingh/netflix image , this is being host on the docker hub . You can select any image on the docker or even on the ecr , and as this is a public image , we don’t need to provide any credentials . We have selected the same RAM and CPU specification as we did in case of task. <br>
+10.Now we have to select image for our container , I have selected inderharrysingh/netflix image , this is being host on the docker hub . You can select any image on the docker or even on the ECR ,as this is a public image ,we don’t need to provide any credentials. We have selected the same RAM and CPU specification as we did in case of task. <br>
 
 <img width="1792" alt="8" src="https://github.com/user-attachments/assets/f813cd2d-f753-4779-bf9b-89ed520c96aa">
 
