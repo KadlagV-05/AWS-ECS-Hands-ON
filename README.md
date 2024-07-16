@@ -61,14 +61,15 @@ It plays a crucial role in ensuring that traffic is evenly distributed among the
 
 <img width="1792" alt="5" src="https://github.com/user-attachments/assets/375d1848-1224-4835-a552-5e6f79758f16">
 
-8.Click on create task definition , and select the following values. <br>
+8.Click on create task definition , and select the following values.<br>
+we will name our task MY-task. <br> 
+Again we specify that we want to run our task on EC2 instance. <br>
 
 <img width="1792" alt="6" src="https://github.com/user-attachments/assets/3a9efa68-e681-4642-b1e2-23bc10169ae9">
 
 
 
-9.we will name our task MY-task. <br> 
-Again we specify that we want to run our task on EC2 instance. <br>
+
 
 10.We will select linux as the operating system ,and select awsvpc as the networking model.<br>
 
