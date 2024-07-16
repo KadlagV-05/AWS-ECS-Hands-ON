@@ -94,15 +94,27 @@ Again we specify that we want to run our task on EC2 instance. <br>
 
 <img width="1792" alt="12" src="https://github.com/user-attachments/assets/ec813fcf-3b5e-4692-a49e-49fd42386b81">
 
-16.In the family section , we will select the task we have just created and we will keep desired task to 1 , this refer to number of tasks we want to run in this service.
+16.In the family section , we will select the task we have just created and we will keep desired task to 1 , this refer to number of tasks we want to run in this service. <br>
+
+17.Now we will configure the load balancer , scroll down you can find the load balancer option. <br>
 
 <img width="1792" alt="13" src="https://github.com/user-attachments/assets/eb168b48-b76c-4812-b17b-95a45b2bf969">
 
-17.Now we will configure the load balancer , scroll down you can find the load balancer option.
-
 <img width="1792" alt="14" src="https://github.com/user-attachments/assets/1e51b535-979b-4e68-bb45-ca3ae26bb56d">
 
-18.Select these settings, most of the option are pre filled we just have to specify the name of the target group.
+18.Now click on create. <br>
+
+
+19. This will take some time for ALB to be created and service to be started on the cluster. <br>
+    To connect to our application , we have to find the DNS name of the ALB. <br>
+    In the EC2 section , you will find the ALB section at bottom. <br>
+    Click on the Load Balancer and copy the DNS of the ALB we have created and open this in the browser. <br>
+
+# You can View the application we Deployed.
+
+## If you dont’ see anything ,it is possible that service has not yet been deployed so wait for some time and check again on the browser. <br>
+
+20.Select these settings, most of the option are pre filled we just have to specify the name of the target group.
 
 <img width="1792" alt="15" src="https://github.com/user-attachments/assets/52b793a9-ad2b-451d-be00-6713277c7d3f">
 
