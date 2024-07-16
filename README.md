@@ -112,13 +112,10 @@ Again we specify that we want to run our task on EC2 instance. <br>
 
 # You can View the application we Deployed.
 
-## If you dont’ see anything ,it is possible that service has not yet been deployed so wait for some time and check again on the browser. <br>
-
-20.Select these settings, most of the option are pre filled we just have to specify the name of the target group.
-
 <img width="1792" alt="15" src="https://github.com/user-attachments/assets/52b793a9-ad2b-451d-be00-6713277c7d3f">
 
 
+## If you dont’ see anything ,it is possible that service has not yet been deployed so wait for some time and check again on the browser. <br>
 
 
 
