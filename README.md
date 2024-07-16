@@ -29,9 +29,8 @@ An ECS cluster is a logical grouping of tasks or services. It is the compute inf
 An Application Load Balancer is a service that automatically distributes incoming application traffic across multiple targets, such as Amazon EC2 instances, containers, and IP addresses.
 It plays a crucial role in ensuring that traffic is evenly distributed among the tasks running in your ECS cluster.
 
-## High Level Steps
- 
-  Creating a Cluster using EC2 Launch type
-  Create a Task Definition File
-  Create a service
-  Set up Load Balancer
+## High Level Steps:
+1.Creating a Cluster using EC2 Launch type
+2.Create a Task Definition File
+3.Create a service
+4.Set up Load Balancer
