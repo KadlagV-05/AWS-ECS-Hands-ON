@@ -68,23 +68,20 @@ Again we specify that we want to run our task on EC2 instance. <br>
 <img width="1792" alt="6" src="https://github.com/user-attachments/assets/3a9efa68-e681-4642-b1e2-23bc10169ae9">
 
 
-
-
-
-10.We will select linux as the operating system ,and select awsvpc as the networking model.<br>
-
-We will select 0.25 as the vCPU , and 0.25 GB RAM as in t2.micro instance we have 1 vCPU and 1GB ram. <br>
-
-11.Now we have to select image for our container , I have selected inderharrysingh/netflix image , this is being host on the docker hub . You can select any image on the docker or even on the ecr , and as this is a public image , we don’t need to provide any credentials . We have selected the same RAM and CPU specification as we did in case of task. <br>
-
-12.We will keep all other things as default. And Click on create. <br>
-
+9.We will select linux as the operating system ,and select awsvpc as the networking model. We will select 0.25 as the vCPU , and 0.25 GB RAM as in t2.micro instance we have 1 vCPU and 1GB ram. <br>
 
 <img width="1792" alt="7" src="https://github.com/user-attachments/assets/ba58404c-643d-4ed7-9f03-262696c45c97">
 
+10.Now we have to select image for our container , I have selected inderharrysingh/netflix image , this is being host on the docker hub . You can select any image on the docker or even on the ecr , and as this is a public image , we don’t need to provide any credentials . We have selected the same RAM and CPU specification as we did in case of task. <br>
+
 <img width="1792" alt="8" src="https://github.com/user-attachments/assets/f813cd2d-f753-4779-bf9b-89ed520c96aa">
 
+11.We will keep all other things as default. And Click on create. <br>
+
 <img width="1792" alt="9" src="https://github.com/user-attachments/assets/5d17d003-ae06-47cf-9351-7be89aa488c1">
+
+
+
 
 
 
